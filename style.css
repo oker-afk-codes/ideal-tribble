@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero-container {
+    margin: 40px auto 20px auto;
+    border: 4px solid #333;
+    display: inline-block;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.hero-image {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-text {
+    font-size: 1.3rem;
+    color: #222;
+    margin-top: 20px;
+}
